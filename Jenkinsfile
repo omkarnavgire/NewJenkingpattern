@@ -1,8 +1,8 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven 3.x' 
-        jdk 'Java 25'  
+        maven 'Maven'       // ✅ must match Global Tool Configuration
+        jdk 'Java 25'       // ✅ must match Global Tool Configuration
     }
 
     stages {
